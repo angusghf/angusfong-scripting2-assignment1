@@ -14,10 +14,11 @@ function App() {
   const [favs, setFavs] = useState([]);
   const handleFavClick = (productId) => {
     if (favs.includes(productId)) {
-      const newFavs = favs.filter((singleFav) =>{
-        return productId !== singleProduct;
+      const newFavs = favs.filter((singleFav) => {
+        return productId !== singleFav;
       });
       // console.log(newFavs)
+      setFavs(newFavs);
     } else{
     setFavs([...favs, productId]);
     }
