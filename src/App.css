@@ -1,0 +1,13 @@
+#root {
+  /* Base styles from default */
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  /* Adding some custom CSS here */
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: left;
+}

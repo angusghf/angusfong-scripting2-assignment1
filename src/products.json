@@ -1,0 +1,46 @@
+{
+    "productsData":[
+        {
+            "id": 1,
+            "name": "Swedish Barnacle Balls",
+            "price": "3 quarters and slightly chewed gum",
+            "description": "tastes like barnacles",
+            "image": "src/assets/img/barnacle.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Kelp Jerky",
+            "price": ".125 pennies",
+            "description": "Positively addictive",
+            "image": "src/assets/img/jerky.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Kelp Shake",
+            "price": "3 ounces of trimmed lawn clippings",
+            "description": "May turn your body green",
+            "image": "src/assets/img/kelp.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Krabby Patty",
+            "price": "$17.99",
+            "description": "Squidward missed out :/",
+            "image": "src/assets/img/krabby.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Nasty Patty",
+            "price": "Free...just take it...please",
+            "description": "JUST TAKE IT PLEASE",
+            "image": "src/assets/img/nasty.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Seanut Brittle",
+            "price": "12",
+            "description": "As good as peanut brittles",
+            "image": "src/assets/img/seanut.jpg"
+        }
+    ]
+}
