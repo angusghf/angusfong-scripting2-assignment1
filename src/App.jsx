@@ -9,15 +9,15 @@ import Card from './components/card';
 
 function App() {
   const [products, setProduct] = useState(productsData.productsData);
-  console.log(products);
+  // console.log(products);
 
   const [favs, setFavs] = useState([]);
-  const handleFavClick = (productId) =>{
+  const handleFavClick = (productId) => {
     if (favs.includes(productId)) {
       const newFavs = favs.filter((singleFav) =>{
         return productId !== singleProduct;
       });
-      console.log(newFavs)
+      // console.log(newFavs)
     } else{
     setFavs([...favs, productId]);
     }
@@ -28,7 +28,7 @@ function App() {
       { products.map( (singleProduct) => {
 
         return(
-          <Card key={singleProduct.id} product={singleProduct} favourite={favs} handleFavClick={handleFavClick}/>
+          <Card key={singleProduct.id} product={singleProduct} favourites={favs} handleFavClick={handleFavClick}/>
 
         );
       })}
