@@ -1,0 +1,10 @@
+{
+    "productsData":[
+        {
+            "id": 1,
+            "name": "Krusty Krab",
+            "description": "Welcome to the Krusty Krab",
+            "image": "src/assets/img/kkrab.jpg"
+        }
+    ]
+}
